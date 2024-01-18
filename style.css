@@ -30,8 +30,20 @@
     height: 30px;
     background: #4fc3dc;
     border-radius: 50%;
-    box-shadow: 0  0 0 10px #4fc3dc,
+    box-shadow: 0  0 0 10px #4fc3dc44,
     0 0 50px #4fc3dc,
-    0 0 100px #4fc3dc,
-
+    0 0 100px #4fc3dc;
+    margin:0 4px;
+    animation: animate 15s linera infinite;
   } 
+  @keyframes animate
+  {
+    0%
+    {
+      transform: translateY(-10vh) scale(0);
+    }
+    100%
+    {
+      transform: translateY(100vh) scale(1);
+    }
+  }
