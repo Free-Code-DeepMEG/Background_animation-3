@@ -35,6 +35,7 @@
     0 0 100px #4fc3dc;
     margin:0 4px;
     animation: animate 15s linear infinite;
+    animation-duration: calc(75s / var(--i));
   } 
   @keyframes animate
   {
