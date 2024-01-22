@@ -49,10 +49,10 @@
   {
     0%
     {
-      transform: translateY(-10vh) scale(0);
+      transform: translateY(100vh) scale(0);
     }
     100%
     {
-      transform: translateY(100vh) scale(1);
+      transform: translateY(-10vh) scale(1);
     }
   }
