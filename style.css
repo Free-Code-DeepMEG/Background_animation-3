@@ -34,7 +34,7 @@
     0 0 50px #4fc3dc,
     0 0 100px #4fc3dc;
     margin:0 4px;
-    animation: animate 15s linera infinite;
+    animation: animate 15s linear infinite;
   } 
   @keyframes animate
   {
