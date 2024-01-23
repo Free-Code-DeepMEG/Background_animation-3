@@ -9,7 +9,7 @@
 
   body{
     min-height: 100vh;
-    background: #0c192c;
+    background: #020c1a;
   }
 
   .bg{
@@ -28,21 +28,21 @@
     position: relative;
     min-width: 30px;
     height: 30px;
-    background: #4fc3dc;
+    background: gold;
     border-radius: 50%;
-    box-shadow: 0  0 0 10px #4fc3dc44,
-    0 0 50px #4fc3dc,
-    0 0 100px #4fc3dc;
+    box-shadow: 0  0 0 10px #eaea0844,
+    0 0 50px gold,
+    0 0 100px gold;
     margin:0 4px;
     animation: animate 15s linear infinite;
     animation-duration: calc(75s / var(--i));
   } 
 
   .bubbles span:nth-child(even){
-    background: #ff2d75;
-    box-shadow: 0 0 0 10px #ff2d7544,
-    0 0 50px #ff2d75,
-    0 0 100px #ff2d75;
+    background: #d2081ffb;
+    box-shadow: 0 0 0 10px #d2081f44,
+    0 0 50px #d2081ffb,
+    0 0 100px #d2081ffb;
     
   }
   @keyframes animate
@@ -55,4 +55,4 @@
     {
       transform: translateY(-10vh) scale(1);
     }
-  }
+  } 
