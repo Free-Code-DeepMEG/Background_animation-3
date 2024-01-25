@@ -7,24 +7,24 @@
     font-family: 'Poppins',sans-serif;
   }
 
-  body{
+body{
     min-height: 100vh;
     background: #020c1a;
-  }
+}
 
-  .bg{
+.bg{
     position: absolute;
     width: 100%;
     height: 100vh;
     overflow: hidden;
-  }
+}
 
-  .bubbles{
+.bubbles{
     position: relative;
     display: flex;
-  }
+}
 
-  .bubbles span{
+.bubbles span{
     position: relative;
     min-width: 30px;
     height: 30px;
@@ -36,16 +36,16 @@
     margin:0 4px;
     animation: animate 15s linear infinite;
     animation-duration: calc(75s / var(--i));
-  } 
+} 
 
-  .bubbles span:nth-child(even){
+.bubbles span:nth-child(even){
     background: #d2081ffb;
     box-shadow: 0 0 0 10px #d2081f44,
     0 0 50px #d2081ffb,
     0 0 100px #d2081ffb;
     
-  }
-  @keyframes animate
+}
+@keyframes animate
   {
     0%
     {
@@ -147,4 +147,10 @@
     font-weight: 500;
     border-radius: 6px;
     letter-spacing: 0.1em;
+  }
+
+  section .content .buttons a:nth-child(1){
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
   }
