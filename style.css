@@ -130,14 +130,14 @@ body{
     font-size: 1.1rem;
   }
 
-  section .content .button{
+  .button{
     position: relative;
     top: 10px;
     display: flex;
     gap: 25px;
   }
 
-  section .content .button a{
+  .button a{
     display: inline-block;
     padding: 11px 30px;
     background: gold;
@@ -149,7 +149,7 @@ body{
     letter-spacing: 0.1em;
   }
 
-  section .content .button a:nth-child(1){
+  .button a:nth-child(1){
     background: transparent;
     color: #fff;
     border: 2px solid #fff;
